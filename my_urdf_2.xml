@@ -1,0 +1,103 @@
+<robot name="example_robot">
+<!--
+KR 120 R3100-2
+-->
+	<link name="base_black_cylinder">
+		<visual>
+			<origin xyz="0 0 0.125" rpy="0 0 0"/>
+			<material name="black">
+				<color rgba="0 0 0 1"/>
+			</material>
+			<geometry>
+				<cylinder length="0.25" radius="0.15"/>
+			</geometry>
+		</visual>
+	</link>
+	<link name="base_box_on_back">
+		<visual>
+			<origin xyz="0 0 0.1" rpy="0 0 0"/>
+			<material name="orange">
+				<color rgba="1 0.35 0.045 1"/>
+			</material>
+			<geometry>
+				<box size="0.2 0.15 0.5" />
+			</geometry>
+		</visual>
+	</link>
+	<link name="base_sticking_out_box">
+		<visual>
+			<origin xyz="0 0 0.05" rpy="0 0 0"/>
+			<material name="orange"/>
+			<geometry>
+				<box size="0.13 0.1 0.1" />
+			</geometry>
+		</visual>
+	</link>
+	<link name="cylinder_between_0_1">
+		<visual>
+			<origin xyz="0 0 0.06" rpy="0 1.57 0"/>
+			<material name="orange"/>
+			<geometry>
+				<cylinder length="0.12" radius="0.05"/>
+			</geometry>
+		</visual>
+	</link>
+	<link name="my_link1">
+		<visual>
+			<origin xyz="0 0 0.7" rpy="0 0 0"/>
+			<material name="orange"/>
+			<geometry>
+				<box size="0.12 0.1 1.4" />
+			</geometry>
+		</visual>
+	</link>
+	<link name="cylinder_between_1_2">
+		<visual>
+			<origin xyz="0 0 0.1" rpy="0 0 0"/>
+			<material name="orange"/>
+			</material>
+			<geometry>
+				<cylinder length="0.2" radius="0.2"/>
+			</geometry>
+		</visual>
+	</link>	
+	<link name="my_link2">
+		<visual>
+			<origin xyz="0 0 0.7" rpy="0 0 0"/>
+			<material name="orange"/>
+			</material>
+			<geometry>
+				<cylinder length="1.4" radius="0.15"/>
+			</geometry>
+		</visual>
+	</link>
+	<link name="zwezenie">
+		<visual>
+			<origin xyz="0 0 0.1" rpy="0 0 0"/>
+			<material name="orange"/>
+			</material>
+			<geometry>
+				<cylinder length="0.2" radius="0.1"/>
+			</geometry>
+		</visual>
+	</link>
+	<link name="end_part_cylinder_w_poprzek">
+		<visual>
+			<origin xyz="0 0 0.125" rpy="0 0 0"/>
+			<material name="orange"/>
+			</material>
+			<geometry>
+				<cylinder length="0.25" radius="0.1"/>
+			</geometry>
+		</visual>
+	</link>	
+	<link name="end_part_cylinder">
+		<visual>
+			<origin xyz="0 0 0.025" rpy="0 0 0"/>
+			<material name="orange"/>
+			</material>
+			<geometry>
+				<cylinder length="0.05" radius="0.2"/>
+			</geometry>
+		</visual>
+	</link>	
