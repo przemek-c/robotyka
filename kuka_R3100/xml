@@ -1,5 +1,5 @@
-<robot name="example_robot">
-<!-- my sticks -->
+<robot name="kuka_R3100-2">
+<!-- Kuka serii KR QUANTEC, model KR 120 R3100-2. -->
 
 <!-- Base -->
 	<link name="base_black_cylinder">
